@@ -33,4 +33,4 @@ jobs:
         
         # Step 4: Verify Pushed Image
         - name: Verify Pushed Image
-          run: docker pull ${{ secrets.DOCKER_USERNAME }}/express-test:${{ github.sha }}
+          run: docker pull ${{ secrets.DOCKER_USERNAME }}/docs-next-app:${{ github.sha }}
